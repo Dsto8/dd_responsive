@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .logo {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 15px;
+    background-color: azure;
+  }
+  .ln-text {
+    font-weight: bold;
+    padding-left: 5px;
+    text-transform: uppercase;
+  }
+  
+  .head-text , h3 {
+    font-weight: 100;
+    color: white;
+    background-color: black;
+  }
+
+  h4 {
+margin-left: 40px;
+  }
+
+  .first-container {
+    height: 700px;
+    width: 100%;
+    display: flex;
+  }
+  .left-cube {
+    width: 65%;
+    padding: 90px;
+    flex: 0 0 65%;
+    position: relative;
+  }
+  
+  .head-text {
+    padding: 0 0 11px 0;
+  }
+  
+  .right-cube {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 35%;
+    flex: 0 0 33%;
+  }
+  
+  .right-cube .interested-container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .Form {
+    margin: 15px 0 0 0;
+  }
+  .Form input {
+    width: 200px;
+    height: 80px;
+    border: none;
+  }
+  .Form label {
+    font-size: 12px;
+  }
+  .submit-btn {
+    background-color: green;
+    color: white;
+    opacity: none;
+    height: 50px;
+    width: 200px;
+    margin: 19px 0 0 0;
+    cursor: pointer;
+  }
+  .l-text {
+    font-size: 12px;
+    margin: 10px 0 0 0;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+  }
+  .ser-box-style {
+    width: 200px;
+  }
+  .serices-img {
+    width: 70px;
+    height: 70px;
+    padding: 0 0 20px 0;
+  }
+  .services-container h2 {
+    font-size: 18px;
+    font-weight: 100;
+  }
+  .services-container p {
+    font-size: 13px;
+    font-weight: 100;
+    margin: 10px 0 0 0;
+  }
+  
+  .about-container {
+    width: 100%;
+    background-color: antiquewhite;
+  }
+  .ceo-box {
+    padding: 85px;
+    text-align: center;
+  }
+  .person-img {
+    width: 70px;
+    height: 70px;
+  }
+  .about-container .ceo-box p {
+    padding: 0 0 20px 0;
+  }
+  hr {
+    width: 100px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+  }
+  footer .footer-container a {
+    font-size: 0.9rem;
+    text-decoration: none;
+
+  }
+  @media only screen and (max-width: 640px) {
+    header .logo {
+      display: flex;
+      justify-content: center;
+    }
+    .first-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 30px;
+      height: auto;
+    }
+    .left-cube {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    .left-cube p {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    .head-text {
+      font-size: 25px;
+      font-weight: 100;
+      text-align: center;
+    }
+    .right-cube .interested-container {
+      margin-top: 15px;
+    }
+    .right-cube {
+      width: 100%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      height: 300px;
+    }
+    .services-container {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      align-items: flex-start;
+      padding: 30px;
+      text-align: left;
+    }
+    .ser-box-style {
+      margin: 20px;
+      width: 100%;
+    }
+    .serices-img {
+      padding: 0 0 8px 0;
+    }
+    .about-container {
+      width: 100%;
+    }
+    .person-img {
+      width: 70px;
+      height: 70px;
+    }
+    .ceo-box {
+      padding: 0;
+      margin: 0;
+      height: 300px;
+      line-height: 1.3rem;
+      font-size: 0.9rem;
+      font-weight: 100;
+    }
+    footer {
+      padding: 10px;
+      font-size: 1rem;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+  }
